@@ -1,0 +1,12 @@
+[package]
+name = "battery"
+version = "0.1.0"
+authors = ["FireCubeStudios <40955345+FireCubeStudios@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name="Batterylib"
+crate-type = ["dylib"]
+
+[dependencies]
+battery = "0.7.8"
